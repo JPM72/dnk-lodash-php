@@ -1,0 +1,19 @@
+{
+  "name": "dnk-lodash-php/dnk-lodash-php",
+  "require": {
+	"php": "^7.4",
+    "symfony/property-access": "^7.2"
+  },
+  "autoload": {
+    "files": [
+      "php/src/dnk/require.php"
+    ],
+    "psr-4": {
+      "dnk\\": "php/src/"
+    },
+    "classmap": [
+      "src/**"
+    ]
+  }
+
+}
