@@ -75,12 +75,7 @@ class Functions extends dnk
 		return static::before(2, $func);
 	}
 
-	public static function _rest(callable $func, $start = null): callable
-	{
-		return static::overRest($func, $start, 'dnk\identity');
-	}
-
-	public static function overRest(
+	protected static function overRest(
 		callable $func,
 		$start,
 		callable $transform
@@ -112,7 +107,7 @@ class Functions extends dnk
 		};
 	}
 
-	public static function flatRest(callable $func): callable
+	protected static function flatRest(callable $func): callable
 	{
 		return static::shortOut(
 			static::overRest($func, null, 'dnk\Arr::flatten')

@@ -1,5 +1,5 @@
 {
-  "name": "dnk-lodash-php/dnk-lodash-php",
+  "name": "jpm72/dnk-lodash-php",
   "require": {
 	"php": "^7.4",
     "symfony/property-access": "^7.2"
