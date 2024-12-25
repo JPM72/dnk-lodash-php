@@ -11,9 +11,9 @@ This project builds upon <a href="https://lodash-php.github.io/">lodash-php</a>.
 
 ## Collection
 
-*Functions from the Lodash **Objects** section that are applicable to both string-keyed PHP arrays in addition to objects are listed here and marked with an asterisk.*
+*Functions from the Lodash **Objects** section that are applicable to both string-keyed PHP arrays in addition to objects inheriting from `stdClass` are listed here and marked with an asterisk.*
 
-* assign*
+### assign*
 * at*
 * defaults*
 * defaultsDeep*
